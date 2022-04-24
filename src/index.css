@@ -1,0 +1,61 @@
+body * {
+  all: unset;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body, body * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.ReactTable * {
+  all: initial;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+.ReactTable {
+  width: 70%;
+  margin-top: 20px;
+}
+
+.rt-tr {
+  flex-direction: row;
+}
+
+.-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.rt-td {
+  cursor: pointer;
+}
+
+.rt-tr-group *:hover {
+  color: #960000 !important;
+}
+
+#root {
+  background-color: gray;
+  height: 100vh;
+}
